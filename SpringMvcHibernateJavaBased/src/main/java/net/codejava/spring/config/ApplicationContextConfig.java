@@ -34,7 +34,11 @@ import net.codejava.spring.model.User;
 @Configuration
 @EnableWebMvc
 @EnableTransactionManagement
-@ComponentScan("net.codejava.spring")
+@ComponentScan(basePackages = {"net.codejava.spring"})
+/*		,"net.codejava.spring.config",
+		"net.codejava.spring.controller",
+		"net.codejava.spring.dao",
+		"net.codejava.spring.model"})   */
 public class ApplicationContextConfig extends WebMvcConfigurerAdapter 
 {
 	@Bean(name="viewResolver")

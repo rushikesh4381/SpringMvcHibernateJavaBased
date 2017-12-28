@@ -43,7 +43,7 @@
 		<div class="container">			
 				<div class="row">
 					<!-- 	<a href="?lang=en">English </a> | <a href="?lang=sp">Spanish </a> -->
-						<h3><spring:message code="title"/></h3>
+					<%-- 	<h3><spring:message code="title"/></h3> --%>
 					<%-- 	<h3>Title : ${title}</h3> --%>
 						
 				</div>
